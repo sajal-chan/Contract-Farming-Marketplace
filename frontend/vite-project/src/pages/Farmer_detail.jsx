@@ -85,6 +85,22 @@ const FarmerList = () => {
   };
 
   return (
+//     {/* Navigation Bar */}
+//   <nav, className="bg-blue-600 shadow-md p-4">
+//   <div className="container mx-auto flex justify-between items-center">
+//     <span className="text-2xl font-bold text-white">Krishi Setu</span>
+//     <div className="space-x-8">
+//       <button onClick={handleFarmerClick} className="text-white hover:text-gray-200">
+//         Farmer
+//       </button>
+//       <button onClick={handleContractorClick} className="text-white hover:text-gray-200">
+//         Contractor
+//       </button>
+//     </div>
+//   </div>
+// </nav>, // Add a comma here
+
+
     <div className="p-6 bg-white shadow-lg rounded-lg mx-auto w-full my-10">
       <button onClick={handleClick} className="bg-blue-500 text-white px-4 py-2 rounded-md mb-6">
         Log Farmers Data
